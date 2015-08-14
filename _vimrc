@@ -95,15 +95,6 @@ if !exists(":DiffOrig")
 		  \ | wincmd p | diffthis
 endif
 
-
-
-"""""""""""""""""""""""""""""""""""""""
-"
-" c/c++ ide
-" author: aaashun@gmail.com
-"
-"""""""""""""""""""""""""""""""""""""""
-
 set ic
 set hls
 set is
@@ -365,7 +356,7 @@ function! _copyright_template_c()
     call append($l+0,"/*******************************************************************************")
     call append($l+1, "* Function    : ")
     call append($l+2, "* Description : ")
-    call append($l+3, "* Author      : hongbin.liu")
+    call append($l+3, "* Author      : hubertliu")
     call append($l+4, "* Date        : ".strftime("%c"))
     " .strftime("%c")")
     call append($l+5, "* Input       : ")
@@ -386,7 +377,7 @@ function! _copyright_template_lua()
     call append($l+0,"--------------------------------------------------------------------------------")
     call append($l+1, "-- Function    : ")
     call append($l+2, "-- Description : ")
-    call append($l+3, "-- Author      : hongbin.liu")
+    call append($l+3, "-- Author      : hubert.liu")
     call append($l+4, "-- Date        : ".strftime("%c"))
     " .strftime("%c")")
     call append($l+5, "-- Input       : ")
@@ -408,7 +399,7 @@ function! _source_head_comment_template_lua()
     call append($l+1, "-- Copyright (C), AISpeech Tech. Co., Ltd.")
     call append($l+2, "-- ")
     call append($l+3, "-- FileName    : ")
-    call append($l+4, "-- Author      : hongbin.liu")
+    call append($l+4, "-- Author      : hubert.liu")
     call append($l+5, "-- Date        : ".strftime("%c"))
     call append($l+6, "-- Description : ")
     call append($l+7, "--------------------------------------------------------------------------------*")
@@ -428,7 +419,7 @@ function! _source_head_comment_template()
     call append($l+1, "* Copyright (C), 2008-2014, AISpeech Tech. Co., Ltd.")
     call append($l+2, "* ")
     call append($l+3, "* FileName    : ")
-    call append($l+4, "* Author      : hongbin.liu")
+    call append($l+4, "* Author      : hubert.liu")
     call append($l+5, "* Date        : ".strftime("%c"))
     call append($l+6, "* Description : ")
     call append($l+7, "*------------------------------------------------------------------------------*")
@@ -521,7 +512,7 @@ Plugin 'lua.vim'
 
 Plugin 'lua_omni'
 
-Plugin 'luainspect.vim'
+"Plugin 'luainspect.vim'
 
 Plugin 'vim-misc'
 
